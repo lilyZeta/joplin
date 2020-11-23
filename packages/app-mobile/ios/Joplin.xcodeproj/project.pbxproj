@@ -176,7 +176,7 @@
 				ORGANIZATIONNAME = joplinapp.org;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = A9BXAFS6CT;
+						DevelopmentTeam = 86CP64BR35;
 						LastSwiftMigration = 1120;
 					};
 				};
@@ -224,7 +224,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=/usr/local/opt/node@12/bin/node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+			shellScript = "export NODE_BINARY=/usr/local/opt/node@15/bin/node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		335ACF4DE85695BEBB18D8A3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -339,7 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 56;
-				DEVELOPMENT_TEAM = A9BXAFS6CT;
+				DEVELOPMENT_TEAM = 86CP64BR35;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Joplin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -350,7 +350,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.cozic.joplin;
+				PRODUCT_BUNDLE_IDENTIFIER = net.boop.dupe;
 				PRODUCT_NAME = Joplin;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -366,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 56;
-				DEVELOPMENT_TEAM = A9BXAFS6CT;
+				DEVELOPMENT_TEAM = 86CP64BR35;
 				INFOPLIST_FILE = Joplin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -376,7 +376,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.cozic.joplin;
+				PRODUCT_BUNDLE_IDENTIFIER = net.boop.dupe;
 				PRODUCT_NAME = Joplin;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
